@@ -1,0 +1,24 @@
+<demo-block title="">
+<form bindsubmit="formSubmit" bindreset="formReset">
+<view  wx:for="{{steps}}" wx:key="index" wx:for-item="steps1" class="centers">
+
+<radio-group class="radio-group {{index+1 == indexid ? 'bright789_view_show':'bright789_view_hide'}}" show="{{index+1 == indexid}}"  data-id="{{index+1}}" bindchange="radioChange">
+  <label class="radio" >
+  <text>{{steps[index].name}}</text>
+    <view wx:for="{{steps1.items}}" wx:for-item="stepss" wx:key="indexs">
+<radio value="{{stepss.point}}" name="index{{index+1}}" checked="" />
+<text>{{stepss.value}}{{stepss.title}}</text>
+    </view>
+  </label>
+  
+   <van-button type="primary" custom-class="demo-margin-right" style="display:inline-block;width:49%;" bindtap='lastq' hidden='{{index == 0}}'  data-id="{{index+1}}">上一题</van-button>
+   <van-button type="primary" style="display:inline-block;width:49%;" bindtap='nextq' hidden='{{index == 19}}'  data-id="{{index+1}}"  custom-class="demo-margin-right">下一题</van-button>
+   
+  
+    <button  wx:if="{{index == 19}}"  bindtap='pointss'>提交查看结果</button>
+</radio-group>
+</view> 
+</form>
+</demo-block>
+
+

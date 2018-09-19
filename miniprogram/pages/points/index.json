@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "查看结果",
+  "usingComponents": {
+    "van-steps": "../../dist/steps/index",
+    "van-card": "../../dist/card/index"
+  }
+}

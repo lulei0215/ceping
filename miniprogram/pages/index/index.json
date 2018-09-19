@@ -1,0 +1,7 @@
+{
+    "navigationBarTitleText": "简单心理测评",
+      "usingComponents": {
+        "van-steps": "../../dist/steps/index",
+        "van-card": "../../dist/icon/index"
+      }
+}

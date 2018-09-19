@@ -1,0 +1,22 @@
+<!--index.wxml-->
+<view class="container">
+
+  <!-- 用户 openid -->
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+    >测测焦虑症离你有多远</button>
+  
+  </view>
+
+  <view class="userinfo">
+    <button 
+      open-type="getUserInfo" 
+      bindgetuserinfo="onGetUserInfo"
+    >待开发</button>
+  
+  </view>
+  
+
+</view>

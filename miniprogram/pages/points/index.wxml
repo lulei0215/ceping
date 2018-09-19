@@ -1,0 +1,4 @@
+<!--miniprogram/pages/points/index.wxml-->
+<view>测试结果(仅供参考)</view>
+{{point}}
+

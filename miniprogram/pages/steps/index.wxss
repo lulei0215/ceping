@@ -1,0 +1,13 @@
+
+.bright789_view_hide{
+ display: none;
+}
+.bright789_view_show{
+ display: block;
+}
+.centers{
+  width:50%;
+  margin: 0 auto;
+
+  
+}

@@ -1,0 +1,54 @@
+{
+	"miniprogramRoot": "miniprogram/",
+	"cloudfunctionRoot": "cloudfunctions/",
+	"setting": {
+		"urlCheck": true,
+		"es6": true,
+		"postcss": true,
+		"minified": true,
+		"newFeature": true
+	},
+	"appid": "wx75226a161df82e93",
+	"projectname": "ceping",
+	"libVersion": "2.2.5",
+	"condition": {
+		"search": {
+			"current": -1,
+			"list": []
+		},
+		"conversation": {
+			"current": -1,
+			"list": []
+		},
+		"plugin": {
+			"current": -1,
+			"list": []
+		},
+		"game": {
+			"list": []
+		},
+		"miniprogram": {
+			"current": 2,
+			"list": [
+				{
+					"id": -1,
+					"name": "db guide",
+					"pathName": "pages/databaseGuide/databaseGuide",
+					"query": ""
+				},
+				{
+					"id": -1,
+					"name": "ceping",
+					"pathName": "pages/steps/index",
+					"query": ""
+				},
+				{
+					"id": 2,
+					"name": "查看结果",
+					"pathName": "pages/points/index",
+					"query": "openid=oph715c_M38e9e1r0HLbbbjTvBsc"
+				}
+			]
+		}
+	}
+}
